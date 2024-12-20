@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn1 {
+        @apply w-10 h-10 rounded-full  flex items-center justify-center border-2
+
+    }
+    .btn2{
+        @apply p-2 rounded-full px-3 
+
+    }
+    .gridContainer{
+        @apply grid grid-cols-3
+    }
+}
+   
